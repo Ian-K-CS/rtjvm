@@ -6,8 +6,7 @@ object ValuesVariablesTypes extends App {
   println(x)
 
   // vals are immutable
-
-  //compiler can infer types
+  // compiler can infer types
 
   val aString: String = "hello"
   val anotherString = "goodbye"
@@ -26,7 +25,7 @@ object ValuesVariablesTypes extends App {
 
   // variables
   var aVariable: Int = 4
-  aVariable = 5 // side effect
+  aVariable = 5 // side effect - ie it doesn't return a value. It does something else... like writing to a database, printing to terminal, changing a variables state.
   println(aVariable)
 
 }

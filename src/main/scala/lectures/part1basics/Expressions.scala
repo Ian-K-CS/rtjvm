@@ -30,8 +30,8 @@ object Expressions extends App {
   println(aConditionValue)
   println(if(aCondition) 5 else 3)
 
-  var i = 0
 
+  var i = 0
   val aWhileLoop: Unit = while (i < 10) {
     println("hey")
     i += 1
@@ -44,13 +44,11 @@ object Expressions extends App {
   val aWeirdValue = aVariable = 3 // Unit === void
   println(aWeirdValue) // () is the value of Unit
 
-  // side effects in Scala return Unit Type
-
+  // side effects in Scala return Unit Type. Eg - println(), while loops, reassigning variables.
 
 
 
   // Code blocks
-
   val aCodeBlock: String = {
     val y = 2
     val z = y + 1
@@ -60,19 +58,4 @@ object Expressions extends App {
 
   // code blocks are expressions
   // value of code block is the last expression evaluated
-
 }
-
-/*
-1.  diff between "hello world" and println("hello world")?
-2. Whats the value of:
-
-val someValue = {
-  2 < 3
-}
-
-val someOtherValue = {
-  if(someValue 239 else 986
-  42
-}
- */

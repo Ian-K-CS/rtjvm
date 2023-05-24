@@ -46,4 +46,11 @@ object Recursion extends App {
   }
   println(fib(8))
 
+  // fib(7, 1, 2)
+  // fib(6, 2, 3)
+  // fib(5, 3, 5)
+  // fib(4, 5, 8)
+  // fib(3, 8, 13)
+  // fib(2, 13, 21)
+
 }
